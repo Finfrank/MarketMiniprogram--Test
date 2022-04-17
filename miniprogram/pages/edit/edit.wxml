@@ -1,0 +1,25 @@
+<view class="top-bg"></view>
+<view class="contain">
+      <view class="card">
+            <view class="title">修改资料</view>
+            <picker bindchange="choose" value="{{ids}}" range="{{campus}}" range-key="name">
+                  <view class="campus">
+                        <block wx:if="{{ids!==-1}}">当前选择：{{campus[ids].name}}</block>
+                        <block wx:if="{{ids==-1}}">请选择您所在校区</block>
+                        <image class="right" src="/images/right.png" />
+                  </view>
+            </picker>
+             <view class="contact">
+                  <input bindinput="emInput" value="{{email}}" maxlength="30" placeholder-class="pache" placeholder="输入您的邮箱地址" />
+            </view>
+            <view class="contact">
+                  <input type="number" bindinput="qqInput" value="{{qqnum}}" maxlength="20" placeholder-class="pache" placeholder="输入您的QQ号" />
+            </view>
+      </view>
+       <van-divider />
+	<van-checkbox value="{{checked}}" checked-color="#019f46" bind:change="onChange">
+		授权接收订单消息通知
+	</van-checkbox>
+      <!--底部确认-->
+      <button class="confirm" open-type='getUserInfo' bindgetuserinfo="getUserInfo">提交修改</button>
+</view>

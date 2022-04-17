@@ -1,0 +1,54 @@
+<view class="contain">
+      <view style="height:20rpx;"></view>
+      <!--顶部图-->
+      <image src="{{banner}}" class="slide-image" />
+      <!--QQ联系-->
+      <view class="card" bindtap="copy" data-copy="{{qq}}" data-name="QQ">
+            <view class="card1">
+                  <image class="wechatimg" src="/images/qq.png" />
+            </view>
+            <view class="borderbox">
+                  <view class="border"></view>
+            </view>
+            <view class="centercontain">
+                  <view class="name">QQ联系</view>
+                  <view class="des">点击即可复制QQ</view>
+            </view>
+            <view class="rightico">
+                  <image class="rightimg" src="/images/right.png" />
+            </view>
+      </view>
+      <!--微信联系-->
+      <view class="card" bindtap="copy" data-copy="{{qq}}" data-name="QQ">
+            <view class="card1">
+                  <image class="wechatimg" src="/images/微信.png" />
+            </view>
+            <view class="borderbox">
+                  <view class="border"></view>
+            </view>
+            <view class="centercontain">
+                  <view class="name">微信联系</view>
+                  <view class="des">点击即可复制微信号</view>
+            </view>
+            <view class="rightico">
+                  <image class="rightimg" src="/images/right.png" />
+            </view>
+      </view>
+
+      <view class="card" bindtap="copy" data-copy="{{qq}}" data-name="QQ">
+            <view class="card1">
+                  <image class="wechatimg" src="/images/公众号.png" />
+            </view>
+            <view class="borderbox">
+                  <view class="border"></view>
+            </view>
+            <view class="centercontain">
+                  <view class="name">关注MARKET北化公众号</view>
+                  <view class="des">点击查看</view>
+            </view>
+            <view class="rightico">
+                  <image class="rightimg" src="/images/right.png" />
+            </view>
+      </view>
+
+</view>

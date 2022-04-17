@@ -1,0 +1,67 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/start/start",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/publish/publish",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/order/list/list",
+    "pages/order/detail/detail",
+    "pages/kefu/kefu",
+    "pages/sell/list/list",
+    "pages/sell/detail/detail",
+    "pages/search/search",
+    "pages/edit/edit",
+    "pages/web/web",
+    "pages/use/use",
+    "pages/appreciateCode/appreciateCode"
+  ],
+  "window": {
+    "backgroundColor": "#019f46",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#019f46",
+    "navigationBarTitleText": "MARKET化大",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#000000",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/首页.png",
+        "selectedIconPath": "/images/tabbar/首页1.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "iconPath": "/images/发.png",
+        "selectedIconPath": "/images/tabbar/发1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/images/我.png",
+        "selectedIconPath": "/images/tabbar/我1.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-steps": "/vant/steps/index",
+    "van-transition": "/vant/transition/index",
+    "van-stepper": "/vant/stepper/index",
+    "van-action-sheet": "/vant/action-sheet/index",
+    "van-popup": "/vant/popup/index",
+    "canvasdrawer": "/components/canvasdrawer/canvasdrawer",
+    "tips": "components/add_tips/index",
+    "van-dialog": "/vant/dialog/index",
+    "van-button": "/vant/button/index",
+    "van-picker": "/vant/picker/index",
+    "van-icon": "/vant/icon/index",
+    "van-uploader": "/vant/uploader/index",
+    "van-checkbox": "/vant/checkbox/index",
+    "van-checkbox-group": "/vant/checkbox-group/index",
+    "van-divider": "/vant/divider/index",
+    "van-notice-bar": "vant/notice-bar/index"
+  }
+}
